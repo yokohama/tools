@@ -21,5 +21,5 @@ for line in ${lines[@]}; do
   color=`echo ${line} | cut -d ',' -f 2`
   desc=`echo ${line}  | cut -d ',' -f 3`
 
-  gh label create "${title}" --description "${desc}" --color "${color}"
+  gh label create "${title}" --description "${desc}" --color "${color}" --force
 done

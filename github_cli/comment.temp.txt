@@ -1,9 +1,0 @@
-./test/test.tsx:1:// ISSUE: { "title": "hoge", "label": ["Next.js", "Ruby"]    }
-./test/test.tsx:2:// ISSUE: { "title": "hoge2", "label": "tailwidcss" }
-./test/test.tsx:3:// ISSUE: { "title": "hoge3" }
-./test/test.tsx:7: * ISSUE: { "title": "hoge3" }
-./test/test.erb:1:<%#= ISSUE: { "title": "hoge2", "label": "Rails"  } %>
-./test/test.rb:1:# ISSUE: { "title": "hoge", "label": ["Next.js", "Ruby"] }
-./test/test.rb:2:# ISSUE: { "title": "hoge2", "label": "tailwidcss"  }
-./test/test.rb:3:# ISSUE: { "title": "hoge3" }
-

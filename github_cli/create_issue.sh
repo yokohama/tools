@@ -1,7 +1,13 @@
 #!/bin/bash
 
 COMMENT_TEMP_FILE=/tmp/comment.temp.txt
-CONFIG_FILE=$HOME/create_issue.config.json
+CONFIG_FILE=$1
+
+if [ "${CONFIG_FILE}" = "" ]; then
+  echo "ERROR: config file was requeired."
+  echo "ex) create_issue.sh create_issue.config.json"
+  exit 1
+fi
 
 # 対象外にしたいファイルやディレクトリ名をセット
 GREP_EXCLUDE_ARRAY=(
