@@ -1,0 +1,10 @@
+todo,#d4c5f9,思いついたらなんでもすぐ記入
+Ruby,#B60205,スキルタグ
+shell,#008000,スキルタグ
+CDK,#ffa500,スキルタグ
+TS,#6495ed,スキルタグ
+React,#87cefa,スキルタグ
+Next.js,#000000,スキルタグ
+Rails,#D93F0B,スキルタグ
+python,#4682b4,スキルタグ
+tailwidcss,#66cdaa,スキルタグ

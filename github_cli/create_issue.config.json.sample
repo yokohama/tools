@@ -1,0 +1,17 @@
+{
+    "comments": [
+        { 
+            "suffix": "rb",
+            "begin": "#"
+        },
+        { 
+            "suffix": "erb",
+            "begin": "<%#= ",
+            "end": "%>"
+        },
+        { 
+            "suffix": "tsx",
+            "begin": "//"
+        }
+    ]
+}
