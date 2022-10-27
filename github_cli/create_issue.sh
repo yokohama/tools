@@ -93,10 +93,8 @@ function exclude_undefined_suffix() {
   return 0
 }
 
-#
 # gitHub issueの作成
 # 注）echoを使いapiのresをリターンしてるので、表示用のechoはここでは使えません。
-#
 function create_github_issue() {
   local line=$1
 
