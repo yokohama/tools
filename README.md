@@ -1,6 +1,15 @@
 # tools
 
 ## github
+ソースコード中に以下のjson形式でコメントすることにより、該当箇所を自動でGitHub上のIssueにします。
+
+```
+例）test.rb
+
+# ISSULE: { "title": "この箇所を直す", "label": ["Rails", "Ruby"] }
+# ISSULE: { "title": "この箇所を直す", "label": ["Rails"] }
+# ISSULE: { "title": "この箇所を直す" }
+```
 
 ### create_label.sh
 1. labels.txtで、作成するラベルを管理します。
